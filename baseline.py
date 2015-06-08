@@ -183,7 +183,7 @@ def getSentsByType(qtype, storyText, schText):
 
 # given a word, use wordnet to return list of similar words
 def getSyns(word):
-    return [s.name().split('.')[0] for s in wn.synsets(word)]
+    return list(set([s.name().split('.')[0] for s in wn.synsets(word)])) 
 
 # given a part of speech, return all the words in a list of (word,POS) tuples
 # that have the same POS as the one given

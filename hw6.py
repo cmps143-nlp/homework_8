@@ -122,6 +122,7 @@ def load_text():
         elif filename.endswith(".sch"):
             target_dataset = filename[0:len(filename)-len("sch")].strip(' .')
             dataset_dict["sch"][target_dataset] = open(filename, 'rU').read()
+    # print(dataset_dict["noun_ids"])
     return dataset_dict
 
 def form(q):
@@ -187,6 +188,23 @@ def load_wordnet_ids(filename):
     for line in csvreader:
         word_ids[line['synset_id']] = {'synset_offset': line['synset_offset'], 'story_'+type: line['story_'+type], 'stories': line['stories']}
     return word_ids
+
+# uses the wordnet dicts given for HW8 to get the correct synset for a word
+# returns a list of words in that synset
+# or just the word if no synset was matched
+def get_synset(word):
+    word_synsets = wn.synsets(word)
+    for c in word_synsets:
+        if c.name() in all_texts['noun_ids'] or c.name() in all_texts['verb_ids']:
+            # return c.name()
+            return (bl.getSyns(c.name().split('.')[0]))
+            # print(c.name())
+            # print(all_texts['noun_ids'][c.name()])
+            # print(c.hypernyms())
+            
+    # if we didn't find the word in the wordnet dicts given in hw8
+    # just return the default synonyms
+    return bl.getSyns(word)
 
 ###############################################################################
 ## Question Answering Functions ###############################################
@@ -348,6 +366,7 @@ class Question:
         return text
 
     def solve_nic_baseline(self, stopwords):
+        # print(self.difficulty,self.qid, self.question)
         sentences = bl.get_sentences(self.get_text())
         myStopWords = stopwords
         if self.qtype == 'sch':
@@ -360,6 +379,7 @@ class Question:
         return Question.text_depgraphs[stype][self.text_name][sent_index]
 
     def solve_baseline(self, stopwords, keyWord=None):
+        print(self.qid)
         # question is only one sentence so list has one item.
         qsent  = bl.get_sentences(self.question)[0]
         # bag of words
@@ -399,6 +419,10 @@ class Question:
             # the question word is not so signigicant so remove it.
             qsent.pop(0)
             qbow = bl.get_bow(qsent, stopwords)
+
+            # for w in qbow:
+            #     print(bl.getSyns(w))
+
             sents = bl.get_sentences(all_texts[qtype][self.text_name])
             best_sent,index = bl.baseline(qbow, sents, stopwords)
             self.answer = " ".join(t[0] for t in best_sent)
@@ -503,7 +527,7 @@ class Question:
         stopwords = set(nltk.corpus.stopwords.words("english"))
         # find sentence with answer
         qsent = bl.get_sentences(self.question)[0]
-        # the question word is not so signigicant to remove it.
+        # the question word is not so significant, so remove it.
         qsent.pop(0)
         qbow = bl.get_bow(qsent, stopwords)
         sents = bl.get_sentences(all_texts[self.qtype[0]][self.text_name])
@@ -564,6 +588,7 @@ class Question:
         start1 = 'what did the '
         start2 = 'what was the '
         qsent = self.question.lower()
+
         if qsent.startswith(start1) or qsent.startswith(start2):
             # find subject and verb in question
             sent = qsent.split()
@@ -580,8 +605,11 @@ class Question:
             print('sindex: ', sindex)
             print('subj: ', subj)
             '''
-
             verb = sent[sindex+1].rstrip(unwanted)
+
+            
+            print(get_synset(verb))
+
             if verb == 'say':
                 verb = 'said'
             #print('verb: ', verb)
@@ -647,7 +675,6 @@ class Question:
 
         elif w1 == 'who':
             self.solve_who()
-
 
         elif w1 == 'where':
             self.solve_where()
