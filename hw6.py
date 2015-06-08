@@ -22,6 +22,8 @@ import constgraph
 import baseline as bl
 import sys
 import utils
+import csv
+from nltk.corpus import wordnet as wn
 
 ###############     Globals     #######################
 global all_texts
@@ -110,6 +112,8 @@ def load_text():
     dataset_dict = {}
     dataset_dict["sch"] = {}
     dataset_dict["story"] = {}
+    dataset_dict["noun_ids"] = load_wordnet_ids("Wordnet_nouns.csv")
+    dataset_dict["verb_ids"] = load_wordnet_ids("Wordnet_verbs.csv")
     # iterate through all the files in the current directory
     for filename in os.listdir("."):
         if filename.endswith(".story"):
@@ -172,6 +176,17 @@ def find_q(qlist, target):
         if q.qid == target:
             return i
     return None
+
+# for loading wordnet CSVs
+def load_wordnet_ids(filename):
+    file = open(filename, 'r')
+    if "noun" in filename: type = "noun"
+    else: type = "verb"
+    csvreader = csv.DictReader(file, delimiter=",", quotechar='"')
+    word_ids = defaultdict()
+    for line in csvreader:
+        word_ids[line['synset_id']] = {'synset_offset': line['synset_offset'], 'story_'+type: line['story_'+type], 'stories': line['stories']}
+    return word_ids
 
 ###############################################################################
 ## Question Answering Functions ###############################################
