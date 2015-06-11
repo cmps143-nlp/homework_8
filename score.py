@@ -1,4 +1,5 @@
 
+
 import sys
 import hw6
 import baseline as bl
@@ -15,36 +16,23 @@ class Q(object):
 
 def read_qout(f):
     line = f.readline()
-    #print(line)
     output = []
     while (not 'SCORING' in line and
         not 'FINAL RESULTS' in line):
         line = f.readline()
-        #print(line)
-        #print('while 1', line)
-        #input('>')
-
     while (not 'F-measure' in line and
         not 'FINAL RESULTS' in line):
-        #print('while 2' ,line)
-        #input('>')
         if 'SCORING ' in line:
             qid = line[len('SCORING '):]
             l = f.readline()
             l = f.readline()
             while len(l) > 1:
-                #print('len: ', len(l))
-                #print('while 3', l)
-                #input('.')
                 output.append(l)
                 l = f.readline()
         if 'Recall ' in line:
             recall = line[line.find('=') + 1: ]
             recall = recall.split()
-            if 'N/A' in recall[0]:
-                recall = 0
-            else:
-                recall = float(recall[0])
+            recall = float(recall[0])
         if 'Precision = ' in line:
             precision = line[len('Precision = '): ]
             pres = precision.split()
@@ -61,7 +49,6 @@ def read_qout(f):
         else:
             F = float(F)
         return Q(qid, recall, pres, F, ' '.join(output))
-    #print(len(line))
     if (len(line) < 2):
         return None
 
@@ -78,14 +65,11 @@ def out(q):
 q_list = []
 
 def average(s_list):
-    #print(s_list)
     global num
     pt = 0
     rt = 0
     ft = 0
     for s in s_list:
-        #print(s)
-        #print(type(s))
         num += 1
         rt += s[0]
         pt += s[1]
@@ -99,58 +83,77 @@ def average(s_list):
 
 if __name__ == '__main__':
     scorefile = sys.argv[1]
+    # read scores from file
     score_list = []
     with open(scorefile) as fin:
         q = read_qout(fin)
-        #out(q)
-
         while q:
             score_list.append(q)
             q = read_qout(fin)
-            #print('while 4')
-
-    #for q in q_list:
-        #out(q)
-
     questions = hw6.load_questions()
-
+    # calculate averages
     measure = {}
-    #print(len(score_list))
+    first_difficulty = {}
     for qscore in score_list:
+        # get question object by qid
         qindex = hw6.find_q(questions, qscore.qid.strip())
-        q = questions[qindex]
-        qsent  = bl.get_sentences(q.question)[0]
-
+        qobj = questions[qindex]
+        
+        # average by first word of question 
+        qsent  = bl.get_sentences(qobj.question)[0]
         first_word = qsent[0][0]
-        #second_word = qsent[1][0]
-
         if not first_word in measure.keys():
             measure[first_word] = []
-        #if not second_word in measure.keys():
-        #       measure[first_word][second_word] = []
+        qobj.score = (qscore.recall, qscore.pres, qscore.F)
+        measure[first_word].append(qobj.score)
 
-        s = (qscore.recall, qscore.pres, qscore.F)
-        #print(s)
-        #print(first_word, s)
-        measure[first_word].append(s)
+    # average by first word and difficulty
+    for q in questions:
+        # average by first word of question 
+        qsent  = bl.get_sentences(q.question)[0]
+        first_word = qsent[0][0]
+        if not first_word in first_difficulty.keys():
+            first_difficulty[first_word] = {}
+        d = q.difficulty.strip().rstrip()
+        if not d in first_difficulty[first_word].keys():
+            first_difficulty[first_word][d] = []
+        first_difficulty[first_word][d].append(q.score)
 
-    #print(len(questions))
-    #print(len(measure))
-    print('Word1\tWord2\trec\t pres\tf-score\tnum')
+    # average by difficulty
+    for qobj in questions:
+        d = qobj.difficulty.strip().rstrip()
+        if not d in measure.keys():
+            measure[d] = []
+        measure[d].append(qobj.score)
+
+
+
+
+    difficulties = ['Easy', 'Medium', 'Hard']
+    # output results
+    print('Word1\t\trec\t pres\tf-score\tnum')
     count = 0
     tot = 0
+    diffcount = 0
     for w1 in measure:
-
+        if w1 in difficulties:
+            continue    
         count = len(measure[w1])
         w1r, w1p, w1f = average(measure[w1])
-        #print()
         tot += count
+        # dont output difficulties same time as first words
         print(w1 +'\t\t'+str(w1r)+'\t'+str(w1p)+'\t'+str(w1f)+'\t'+str(count))
-        #for w2 in measure[w1]:
-        #   w2r, w2p, w2f = average(measure[w1][w2])
-        #print()
+        for diff in first_difficulty[w1].keys():
+            dwr, dwp, dwf = average(first_difficulty[w1][diff])
+            print('\t'+diff +'\t'+str(dwr)+'\t'+str(dwp)+'\t'+str(dwf)+'\t'+str(len(first_difficulty[w1][diff])))
 
-    #print(tot)
+    # difficulty
+    print("Average by Difficulties")
+    for diff in difficulties:
+        if diff in measure.keys():
+            r, p, f = average(measure[diff])
+            print(diff +'\t\t'+str(r)+'\t'+str(p)+'\t'+str(f)+'\t'+str(len(measure[diff])))
+
 
 
 

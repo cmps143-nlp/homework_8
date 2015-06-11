@@ -1,0 +1,2734 @@
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-1
+
+Comparing Key  `on eventful today'
+      and Resp `a meeting named started on eventful today .'
+
+Comparing Key  `eventful today'
+      and Resp `a meeting named started on eventful today .'
+
+=> Best match in answer key is:
+   `on eventful today'
+
+Recall    = 1.00 (3/3)
+Precision = 0.43 (3/7)
+F-measure = 0.60
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-2
+
+Comparing Key  `G20 summit'
+      and Resp `a g20 today'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-3
+
+Comparing Key  `on a street'
+      and Resp `at first it'
+
+Comparing Key  `along the street where I work'
+      and Resp `at first it'
+
+Comparing Key  `right in front of my store'
+      and Resp `at first it'
+
+=> Best match in answer key is:
+   `on a street'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-4
+
+Comparing Key  `a police car'
+      and Resp `police car and throw a thing at a police'
+
+Comparing Key  `police car'
+      and Resp `police car and throw a thing at a police'
+
+=> Best match in answer key is:
+   `a police car'
+
+Recall    = 1.00 (3/3)
+Precision = 0.33 (3/9)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-5
+
+Comparing Key  `the people'
+      and Resp `the people'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-6
+
+Comparing Key  `the people'
+      and Resp `the people'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-7
+
+Comparing Key  `it burned'
+      and Resp `the people burned a and threw a thing at a .'
+
+Comparing Key  `burned'
+      and Resp `the people burned a and threw a thing at a .'
+
+=> Best match in answer key is:
+   `burned'
+
+Recall    = 1.00 (1/1)
+Precision = 0.10 (1/10)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-8
+
+Comparing Key  `the people'
+      and Resp `the people'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-9
+
+Comparing Key  `a police car'
+      and Resp `cars things cops police'
+
+Comparing Key  `police cars'
+      and Resp `cars things cops police'
+
+=> Best match in answer key is:
+   `police cars'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-10
+
+Comparing Key  `were burned'
+      and Resp `were burned and things were thrown at cops .'
+
+Comparing Key  `burned'
+      and Resp `were burned and things were thrown at cops .'
+
+=> Best match in answer key is:
+   `were burned'
+
+Recall    = 1.00 (2/2)
+Precision = 0.25 (2/8)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-11
+
+Comparing Key  `bean bag bullets'
+      and Resp `stores the windows tear gas bag bullets rioters worse things'
+
+Recall    = 0.67 (2/3)
+Precision = 0.20 (2/10)
+F-measure = 0.31
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-12
+
+Comparing Key  `bean bag bullets'
+      and Resp `stores the windows tear gas bag bullets worse things'
+
+Recall    = 0.67 (2/3)
+Precision = 0.22 (2/9)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-13
+
+Comparing Key  `windows of stores'
+      and Resp `stores the windows tear gas bag bullets rioters worse things'
+
+Recall    = 0.67 (2/3)
+Precision = 0.20 (2/10)
+F-measure = 0.31
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-14
+
+Comparing Key  `the police'
+      and Resp `the police people'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-15
+
+Comparing Key  `the rioters'
+      and Resp `they a things'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-16
+
+Comparing Key  `because they disagreed about a view'
+      and Resp `because it disagree about a view .'
+
+Recall    = 0.67 (4/6)
+Precision = 0.67 (4/6)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-17
+
+Comparing Key  `riot'
+      and Resp `'
+
+Recall    = 0.00 (0/1)
+Precision = N/A (0/0)
+F-measure = N/A
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-18
+
+Comparing Key  `to alleviate the violence'
+      and Resp `violence police gear a full riot the'
+
+Recall    = 0.50 (2/4)
+Precision = 0.29 (2/7)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-19
+
+Comparing Key  `The police'
+      and Resp `the police people'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-20
+
+Comparing Key  `The people'
+      and Resp `the people'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-21
+
+Comparing Key  `The police'
+      and Resp `the police people'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-22
+
+Comparing Key  `The people'
+      and Resp `meeting the'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-23
+
+Comparing Key  `a police car'
+      and Resp `'
+
+Recall    = 0.00 (0/3)
+Precision = N/A (0/0)
+F-measure = N/A
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-01-24
+
+Comparing Key  `The people'
+      and Resp `the police people'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-1
+
+Comparing Key  `a young man'
+      and Resp `man the'
+
+Comparing Key  `the young man'
+      and Resp `man the'
+
+=> Best match in answer key is:
+   `the young man'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-2
+
+Comparing Key  `out on my front lawn'
+      and Resp `a front lawn motorbike years'
+
+Comparing Key  `on the spot of the yard of the narrator'
+      and Resp `a front lawn motorbike years'
+
+=> Best match in answer key is:
+   `out on my front lawn'
+
+Recall    = 0.40 (2/5)
+Precision = 0.40 (2/5)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-3
+
+Comparing Key  `I'
+      and Resp `a I he'
+
+Comparing Key  `the narrator'
+      and Resp `a I he'
+
+=> Best match in answer key is:
+   `I'
+
+Recall    = 1.00 (1/1)
+Precision = 0.33 (1/3)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-4
+
+Comparing Key  `because it wanted the young man to know the narrator regretting that it had not aided him'
+      and Resp `because it want the young man to know the narrator regret that it have not aid him .'
+
+Recall    = 0.76 (13/17)
+Precision = 0.76 (13/17)
+F-measure = 0.76
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-5
+
+Comparing Key  `the house of the narrator'
+      and Resp `a the man neck motorbike front yard broke'
+
+Recall    = 0.20 (1/5)
+Precision = 0.12 (1/8)
+F-measure = 0.15
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-6
+
+Comparing Key  `this ball of light in the trees above me'
+      and Resp `'
+
+Comparing Key  `some bright flash in a group of trees that was above the narrator'
+      and Resp `'
+
+=> Best match in answer key is:
+   `this ball of light in the trees above me'
+
+Recall    = 0.00 (0/9)
+Precision = N/A (0/0)
+F-measure = N/A
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-7
+
+Comparing Key  `everyone'
+      and Resp `everyone a mind it I'
+
+Recall    = 1.00 (1/1)
+Precision = 0.20 (1/5)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-8
+
+Comparing Key  `a young man'
+      and Resp `man the'
+
+Recall    = 0.33 (1/3)
+Precision = 0.50 (1/2)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-9
+
+Comparing Key  `the narrator'
+      and Resp `narrator man the'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-10
+
+Comparing Key  `the narrator and a young man'
+      and Resp `narrator young man a'
+
+Recall    = 0.67 (4/6)
+Precision = 1.00 (4/4)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-11
+
+Comparing Key  `that the flash was an orb'
+      and Resp `wonder that the flash be an orb'
+
+Recall    = 0.83 (5/6)
+Precision = 0.71 (5/7)
+F-measure = 0.77
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-12
+
+Comparing Key  `some bright flash'
+      and Resp `some flash a the'
+
+Recall    = 0.67 (2/3)
+Precision = 0.50 (2/4)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-13
+
+Comparing Key  `a few years ago'
+      and Resp `a few years ago , a died out on my front lawn when he crashed his motorbike .'
+
+Comparing Key  `when he crashed his motorbike'
+      and Resp `a few years ago , a died out on my front lawn when he crashed his motorbike .'
+
+=> Best match in answer key is:
+   `when he crashed his motorbike'
+
+Recall    = 1.00 (5/5)
+Precision = 0.31 (5/16)
+F-measure = 0.48
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-14
+
+Comparing Key  `on the front yard of a narrator'
+      and Resp `on the front yard'
+
+Recall    = 0.57 (4/7)
+Precision = 1.00 (4/4)
+F-measure = 0.73
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-15
+
+Comparing Key  `a young man'
+      and Resp `man the'
+
+Recall    = 0.33 (1/3)
+Precision = 0.50 (1/2)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-16
+
+Comparing Key  `the narrator'
+      and Resp `narrator the it'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-17
+
+Comparing Key  `the house of the narrator'
+      and Resp `to the spot of the yard of the narrator and'
+
+Recall    = 0.80 (4/5)
+Precision = 0.40 (4/10)
+F-measure = 0.53
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-18
+
+Comparing Key  `The family of the narrator'
+      and Resp `man the'
+
+Recall    = 0.20 (1/5)
+Precision = 0.50 (1/2)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-19
+
+Comparing Key  `The narrator'
+      and Resp `narrator family the'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-02-20
+
+Comparing Key  `Some bright flash'
+      and Resp `a the man neck motorbike front yard broke'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/8)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-1
+
+Comparing Key  `Hurricane Gustav'
+      and Resp `gustav hurricane'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-2
+
+Comparing Key  `the storm'
+      and Resp `storm the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-3
+
+Comparing Key  `winds'
+      and Resp `winds'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-4
+
+Comparing Key  `President Bush'
+      and Resp `a Bush'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-5
+
+Comparing Key  `in Louisiana'
+      and Resp `in louisiana'
+
+Comparing Key  `Louisiana'
+      and Resp `in louisiana'
+
+=> Best match in answer key is:
+   `in Louisiana'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-6
+
+Comparing Key  `a store named Home Depot'
+      and Resp `in order'
+
+Comparing Key  `Home Depot'
+      and Resp `in order'
+
+=> Best match in answer key is:
+   `a store named Home Depot'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-7
+
+Comparing Key  `a large group of pine trees and had a group of oak trees'
+      and Resp `a trees the an group oak pine'
+
+Recall    = 0.38 (5/13)
+Precision = 0.71 (5/7)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-8
+
+Comparing Key  `because it owned a group of trees and near the house of the narrator'
+      and Resp `because it own a group of tree and near the house of the narrator .'
+
+Recall    = 0.86 (12/14)
+Precision = 0.86 (12/14)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-9
+
+Comparing Key  `the house of the parent of the narrator'
+      and Resp `in order'
+
+Recall    = 0.00 (0/8)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-10
+
+Comparing Key  `the narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-11
+
+Comparing Key  `an area of a neighborhood of the narrator'
+      and Resp `an area'
+
+Recall    = 0.25 (2/8)
+Precision = 1.00 (2/2)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-12
+
+Comparing Key  `the tree'
+      and Resp `apart a split the tree'
+
+Recall    = 1.00 (2/2)
+Precision = 0.40 (2/5)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-13
+
+Comparing Key  `the narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-14
+
+Comparing Key  `a RV of the neighbor'
+      and Resp `house narrator the family'
+
+Recall    = 0.20 (1/5)
+Precision = 0.25 (1/4)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-15
+
+Comparing Key  `my wife, our five children, and our dog'
+      and Resp `a wife we'
+
+Recall    = 0.12 (1/8)
+Precision = 0.33 (1/3)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-16
+
+Comparing Key  `The group of power lines'
+      and Resp `a trees the group house narrator'
+
+Recall    = 0.40 (2/5)
+Precision = 0.33 (2/6)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-17
+
+Comparing Key  `storm'
+      and Resp `once , storm was occurring in .'
+
+Recall    = 1.00 (1/1)
+Precision = 0.20 (1/5)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-18
+
+Comparing Key  `the narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-19
+
+Comparing Key  `in Louisiana'
+      and Resp `in louisiana'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-03-20
+
+Comparing Key  `the narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-1
+
+Comparing Key  `The squirrel'
+      and Resp `squirrel the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-2
+
+Comparing Key  `The squirrel'
+      and Resp `squirrel the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-3
+
+Comparing Key  `The squirrel's paw'
+      and Resp `squirrel the paw'
+
+Recall    = 0.67 (2/3)
+Precision = 0.67 (2/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-4
+
+Comparing Key  `The bowl'
+      and Resp `in the bowl'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-5
+
+Comparing Key  `Squirrels'
+      and Resp `a Squirrels'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-6
+
+Comparing Key  `I'
+      and Resp `an I'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-7
+
+Comparing Key  `a digital camera'
+      and Resp `a those this camera times'
+
+Recall    = 0.67 (2/3)
+Precision = 0.40 (2/5)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-8
+
+Comparing Key  `many birds'
+      and Resp `a This I'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-9
+
+Comparing Key  `the railing'
+      and Resp `on the railing'
+
+Comparing Key  `the railing and wait their turn'
+      and Resp `on the railing'
+
+=> Best match in answer key is:
+   `the railing'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-10
+
+Comparing Key  `on the deck'
+      and Resp `on the deck'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-11
+
+Comparing Key  `Over the deck's railing'
+      and Resp `bowl the'
+
+Recall    = 0.25 (1/4)
+Precision = 0.50 (1/2)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-12
+
+Comparing Key  `In order for the birds to wait'
+      and Resp `a water the bowl'
+
+Recall    = 0.14 (1/7)
+Precision = 0.25 (1/4)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-13
+
+Comparing Key  `A large stainless steel bowl of water'
+      and Resp `a the benjamin steel bowl stainless water'
+
+Recall    = 0.71 (5/7)
+Precision = 0.71 (5/7)
+F-measure = 0.71
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-14
+
+Comparing Key  `on the deck's railing'
+      and Resp `bowl water the'
+
+Recall    = 0.25 (1/4)
+Precision = 0.33 (1/3)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-04-15
+
+Comparing Key  `the squirrel's paw'
+      and Resp `the order birds'
+
+Recall    = 0.33 (1/3)
+Precision = 0.33 (1/3)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-1
+
+Comparing Key  `A teacher'
+      and Resp `a group students'
+
+Comparing Key  `A teacher, owned some white slip and owned a deck'
+      and Resp `a group students'
+
+=> Best match in answer key is:
+   `A teacher'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-2
+
+Comparing Key  `presence'
+      and Resp `group of student for presence and stand at the front'
+
+Comparing Key  `presence and stood at the front of a classroom'
+      and Resp `group of student for presence and stand at the front'
+
+=> Best match in answer key is:
+   `presence and stood at the front of a classroom'
+
+Recall    = 0.67 (6/9)
+Precision = 0.60 (6/10)
+F-measure = 0.63
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-3
+
+Comparing Key  `The narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-4
+
+Comparing Key  `Teaching'
+      and Resp `and the group of student do n't react'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/8)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-5
+
+Comparing Key  `The narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-6
+
+Comparing Key  `The slip'
+      and Resp `slip and insert it into a bottom drawer of the'
+
+Comparing Key  `the slip and inserted it into a bottom drawer of the desk'
+      and Resp `slip and insert it into a bottom drawer of the'
+
+=> Best match in answer key is:
+   `the slip and inserted it into a bottom drawer of the desk'
+
+Recall    = 0.75 (9/12)
+Precision = 0.90 (9/10)
+F-measure = 0.82
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-7
+
+Comparing Key  `I'
+      and Resp `What a'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-8
+
+Comparing Key  `One of my most embarassing moments as a teacher to date.'
+      and Resp `a teacher moments date'
+
+Recall    = 0.36 (4/11)
+Precision = 1.00 (4/4)
+F-measure = 0.53
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-9
+
+Comparing Key  `That my underslip had somehow made its way to the floor'
+      and Resp `the dear oh can underwear round class ankles garment'
+
+Recall    = 0.09 (1/11)
+Precision = 0.11 (1/9)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-10
+
+Comparing Key  `The slip'
+      and Resp `over the slip'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-11
+
+Comparing Key  `because the not-functional elastic of the slip was dysfunctional'
+      and Resp `because the elastic of the slip be dysfunctional .'
+
+Recall    = 0.78 (7/9)
+Precision = 0.88 (7/8)
+F-measure = 0.82
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-12
+
+Comparing Key  `The narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-13
+
+Comparing Key  `language'
+      and Resp `group of students language'
+
+Comparing Key  `a mixed class of 5th graders ESL'
+      and Resp `group of students language'
+
+=> Best match in answer key is:
+   `language'
+
+Recall    = 1.00 (1/1)
+Precision = 0.25 (1/4)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-14
+
+Comparing Key  `How they had described the day to their parents over dinner'
+      and Resp `they have describe the day to their parent over dinner'
+
+Recall    = 0.64 (7/11)
+Precision = 0.70 (7/10)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-15
+
+Comparing Key  `No one'
+      and Resp `they a I'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-16
+
+Comparing Key  `the narrator'
+      and Resp `narrator the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-05-17
+
+Comparing Key  `the slip'
+      and Resp `a group students'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-1
+
+Comparing Key  `An oven'
+      and Resp `the an'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-2
+
+Comparing Key  `a group of treats'
+      and Resp `group of treat and create some fire'
+
+Comparing Key  `a group of treats and created some fire'
+      and Resp `group of treat and create some fire'
+
+=> Best match in answer key is:
+   `a group of treats and created some fire'
+
+Recall    = 0.62 (5/8)
+Precision = 0.71 (5/7)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-3
+
+Comparing Key  `the husband of the narrator'
+      and Resp `husband the'
+
+Comparing Key  `the husband'
+      and Resp `husband the'
+
+=> Best match in answer key is:
+   `the husband'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-4
+
+Comparing Key  `The door of the oven'
+      and Resp `oven the door order fire'
+
+Comparing Key  `The door of the oven in order to prevent the fire spreading'
+      and Resp `oven the door order fire'
+
+=> Best match in answer key is:
+   `The door of the oven'
+
+Recall    = 0.60 (3/5)
+Precision = 0.60 (3/5)
+F-measure = 0.60
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-5
+
+Comparing Key  `We'
+      and Resp `a we'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-6
+
+Comparing Key  `The oven'
+      and Resp `degrees stuck the'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-7
+
+Comparing Key  `A fire extinguisher'
+      and Resp `degrees stuck the'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-8
+
+Comparing Key  `Our stove'
+      and Resp `degrees stuck the'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-9
+
+Comparing Key  `A plug-in burner, griddle, and counter top oven'
+      and Resp `degrees stuck the'
+
+Recall    = 0.00 (0/8)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-10
+
+Comparing Key  `because the broiler of the oven activated'
+      and Resp `extinguisher a fire the'
+
+Recall    = 0.14 (1/7)
+Precision = 0.25 (1/4)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-11
+
+Comparing Key  `To the ceiling'
+      and Resp `a treats some the group'
+
+Recall    = 0.33 (1/3)
+Precision = 0.20 (1/5)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-12
+
+Comparing Key  `The fire'
+      and Resp `house the fire'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-13
+
+Comparing Key  `A new second oven'
+      and Resp `prevent the fire spreading'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/4)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-14
+
+Comparing Key  `My new range'
+      and Resp `a days range'
+
+Recall    = 0.33 (1/3)
+Precision = 0.33 (1/3)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-15
+
+Comparing Key  `A batch of cookies'
+      and Resp `a batch cookies'
+
+Recall    = 0.75 (3/4)
+Precision = 1.00 (3/3)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-16
+
+Comparing Key  `the oven'
+      and Resp `a treats some the group'
+
+Recall    = 0.50 (1/2)
+Precision = 0.20 (1/5)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-17
+
+Comparing Key  `the husband of the narrator'
+      and Resp `husband the'
+
+Recall    = 0.40 (2/5)
+Precision = 1.00 (2/2)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING blogs-06-18
+
+Comparing Key  `an oven'
+      and Resp `the an'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-1
+
+Comparing Key  `on a branch of a tree'
+      and Resp `on a branch'
+
+Recall    = 0.50 (3/6)
+Precision = 1.00 (3/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-2
+
+Comparing Key  `a piece of cheese'
+      and Resp `voice'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-3
+
+Comparing Key  `A Fox and A Crow'
+      and Resp `fox cheese voice a'
+
+Recall    = 0.40 (2/5)
+Precision = 0.50 (2/4)
+F-measure = 0.44
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-4
+
+Comparing Key  `snatched'
+      and Resp `get snatched'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-5
+
+Comparing Key  `under the tree'
+      and Resp `a crow cheese the'
+
+Recall    = 0.33 (1/3)
+Precision = 0.25 (1/4)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-6
+
+Comparing Key  `flattered'
+      and Resp `a'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-7
+
+Comparing Key  `The fox'
+      and Resp `she the fox crow'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-8
+
+Comparing Key  `sitting on the branch of a tree'
+      and Resp `a'
+
+Recall    = 0.14 (1/7)
+Precision = 1.00 (1/1)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-9
+
+Comparing Key  `in the beak of the crow'
+      and Resp `in the beak'
+
+Recall    = 0.50 (3/6)
+Precision = 1.00 (3/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-10
+
+Comparing Key  `a Fox'
+      and Resp `a Crow Fox'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-11
+
+Comparing Key  `a Fox'
+      and Resp `the fox'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-12
+
+Comparing Key  `the beauty of the bird was incomparable'
+      and Resp `the beauty of the bird was incomparable'
+
+Recall    = 1.00 (7/7)
+Precision = 1.00 (7/7)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-13
+
+Comparing Key  `loudly'
+      and Resp `there once was a .'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/4)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-14
+
+Comparing Key  `the crow'
+      and Resp `the fox'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-15
+
+Comparing Key  `a fox'
+      and Resp `the fox'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-16
+
+Comparing Key  `The crow'
+      and Resp `the fox crow'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-17
+
+Comparing Key  `the crow'
+      and Resp `the crow'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-01-18
+
+Comparing Key  `The crow'
+      and Resp `she the fox crow'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-1
+
+Comparing Key  `a fat bull'
+      and Resp `a mouth he Lion'
+
+Recall    = 0.33 (1/3)
+Precision = 0.25 (1/4)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-2
+
+Comparing Key  `the bull'
+      and Resp `a Bull prey horns'
+
+Recall    = 0.50 (1/2)
+Precision = 0.25 (1/4)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-3
+
+Comparing Key  `in a meadow'
+      and Resp `in a meadow'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-4
+
+Comparing Key  `the bull'
+      and Resp `bull the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-5
+
+Comparing Key  `a lion'
+      and Resp `the lion'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-6
+
+Comparing Key  `that the lion was friendly'
+      and Resp `the lion be friendly'
+
+Recall    = 0.60 (3/5)
+Precision = 0.75 (3/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-7
+
+Comparing Key  `a lion and a bull'
+      and Resp `bull lion world a'
+
+Recall    = 0.60 (3/5)
+Precision = 0.75 (3/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-8
+
+Comparing Key  `the bull'
+      and Resp `a friend what'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-9
+
+Comparing Key  `to eat the bull'
+      and Resp `eat the bull'
+
+Recall    = 0.75 (3/4)
+Precision = 1.00 (3/3)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-10
+
+Comparing Key  `because the lion feared sharp every horn of the bull'
+      and Resp `because the lion fear sharp every horn of the bull .'
+
+Recall    = 0.90 (9/10)
+Precision = 0.90 (9/10)
+F-measure = 0.90
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-11
+
+Comparing Key  `sharp every horn of the bull'
+      and Resp `every horn of the bull'
+
+Recall    = 0.83 (5/6)
+Precision = 1.00 (5/5)
+F-measure = 0.91
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-12
+
+Comparing Key  `horns'
+      and Resp `world those the dear friend'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/5)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-13
+
+Comparing Key  `a lion'
+      and Resp `the lion'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-14
+
+Comparing Key  `because the lion wanted to eat the bull'
+      and Resp `because the lion want to eat the bull .'
+
+Recall    = 0.88 (7/8)
+Precision = 0.88 (7/8)
+F-measure = 0.88
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-15
+
+Comparing Key  `to remove every horn of the bull'
+      and Resp `bull to remove every horn of the bull because every'
+
+Recall    = 1.00 (7/7)
+Precision = 0.70 (7/10)
+F-measure = 0.82
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-16
+
+Comparing Key  `because every horn of the bull was ugly'
+      and Resp `because every horn of the bull be ugly .'
+
+Recall    = 0.88 (7/8)
+Precision = 0.88 (7/8)
+F-measure = 0.88
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-17
+
+Comparing Key  `to attempt to kill the bull'
+      and Resp `attempt to kill the bull'
+
+Recall    = 0.83 (5/6)
+Precision = 1.00 (5/5)
+F-measure = 0.91
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-18
+
+Comparing Key  `the bull'
+      and Resp `bull the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-19
+
+Comparing Key  `The bull'
+      and Resp `bull the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-20
+
+Comparing Key  `because the lion feared sharp every horn of the bull.'
+      and Resp `because the lion want to eat the bull .'
+
+Recall    = 0.50 (5/10)
+Precision = 0.62 (5/8)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-21
+
+Comparing Key  `the bull'
+      and Resp `a the bull'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-22
+
+Comparing Key  `the bull'
+      and Resp `a the bull'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-02-23
+
+Comparing Key  `the lion'
+      and Resp `the lion'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-1
+
+Comparing Key  `an eagle, a serpent, and a countryman'
+      and Resp `serpent eagle man a'
+
+Recall    = 0.43 (3/7)
+Precision = 0.75 (3/4)
+F-measure = 0.55
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-2
+
+Comparing Key  `an eagle'
+      and Resp `Eagle an'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-3
+
+Comparing Key  `his talons'
+      and Resp `in his talon with the intention of carry it off'
+
+Recall    = 0.50 (1/2)
+Precision = 0.10 (1/10)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-4
+
+Comparing Key  `a countryman'
+      and Resp `a who countryman'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-5
+
+Comparing Key  `some poison'
+      and Resp `a talons the an intention'
+
+Comparing Key  `some of his poison'
+      and Resp `a talons the an intention'
+
+=> Best match in answer key is:
+   `some poison'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/5)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-6
+
+Comparing Key  `into the man's drinking-horn'
+      and Resp `in revenge'
+
+Comparing Key  `in the drinking vessel of the countryman'
+      and Resp `in revenge'
+
+=> Best match in answer key is:
+   `in the drinking vessel of the countryman'
+
+Recall    = 0.14 (1/7)
+Precision = 0.50 (1/2)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-7
+
+Comparing Key  `to sip from the drinking vessel'
+      and Resp `sip from the drinking vessel'
+
+Recall    = 0.83 (5/6)
+Precision = 1.00 (5/5)
+F-measure = 0.91
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-8
+
+Comparing Key  `the eagle'
+      and Resp `eagle an'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-9
+
+Comparing Key  `the drinking vessel'
+      and Resp `drinking vessel'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-10
+
+Comparing Key  `the ground'
+      and Resp `a the man hand eagle thirst exertions draught ground'
+
+Recall    = 1.00 (2/2)
+Precision = 0.22 (2/9)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-11
+
+Comparing Key  `his exertions'
+      and Resp `a the man horn hand contents eagle thirst exertions draught ground'
+
+Recall    = 0.50 (1/2)
+Precision = 0.09 (1/11)
+F-measure = 0.15
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-12
+
+Comparing Key  `spat some of his poison into the man's drinking-horn'
+      and Resp `spat'
+
+Recall    = 0.11 (1/9)
+Precision = 1.00 (1/1)
+F-measure = 0.20
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-13
+
+Comparing Key  `an Eagle'
+      and Resp `Eagle an'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-14
+
+Comparing Key  `The serpent'
+      and Resp `eagle the serpent'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-15
+
+Comparing Key  `a countryman'
+      and Resp `a who countryman'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-16
+
+Comparing Key  `a countryman'
+      and Resp `a who countryman'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-17
+
+Comparing Key  `a drinking vessel'
+      and Resp `drinking vessel try to help the eagle to escape'
+
+Recall    = 0.67 (2/3)
+Precision = 0.22 (2/9)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-18
+
+Comparing Key  `a countryman'
+      and Resp `a who countryman'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-19
+
+Comparing Key  `the serpent'
+      and Resp `eagle from the serpent'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-20
+
+Comparing Key  `some poison'
+      and Resp `poison in the drinking vessel'
+
+Comparing Key  `some of his poison'
+      and Resp `poison in the drinking vessel'
+
+=> Best match in answer key is:
+   `some poison'
+
+Recall    = 0.50 (1/2)
+Precision = 0.20 (1/5)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-21
+
+Comparing Key  `the eagle'
+      and Resp `a Eagle man'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-22
+
+Comparing Key  `An eagle'
+      and Resp `eagle an'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-23
+
+Comparing Key  `an eagle'
+      and Resp `eagle the serpent'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-24
+
+Comparing Key  `A serpent'
+      and Resp `a an order serpent'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-25
+
+Comparing Key  `the eagle'
+      and Resp `eagle an'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-26
+
+Comparing Key  `The countryman'
+      and Resp `who countryman the'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-03-27
+
+Comparing Key  `The drinking vessel'
+      and Resp `some poison drinking the vessel'
+
+Recall    = 1.00 (3/3)
+Precision = 0.60 (3/5)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-1
+
+Comparing Key  `a stork'
+      and Resp `a fare Fox'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-2
+
+Comparing Key  `a large flat dish of soup'
+      and Resp `a large flat dish of soup'
+
+Recall    = 1.00 (6/6)
+Precision = 1.00 (6/6)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-3
+
+Comparing Key  `in a flat and large dish'
+      and Resp `fox some a the dish'
+
+Recall    = 0.33 (2/6)
+Precision = 0.40 (2/5)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-4
+
+Comparing Key  `a fox and a stork'
+      and Resp `stork fox pitcher a'
+
+Recall    = 0.60 (3/5)
+Precision = 0.75 (3/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-5
+
+Comparing Key  `lapped the soup with relish'
+      and Resp `served lapped'
+
+Recall    = 0.20 (1/5)
+Precision = 0.50 (1/2)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-6
+
+Comparing Key  `because he wasn't able to reach some food that was in the pitcher'
+      and Resp `because he be n't able to reach some food that be in the pitcher .'
+
+Recall    = 0.85 (11/13)
+Precision = 0.79 (11/14)
+F-measure = 0.81
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-7
+
+Comparing Key  `the long and narrow neck of the pitcher'
+      and Resp `the long bill of the stork into the long and'
+
+Recall    = 0.62 (5/8)
+Precision = 0.50 (5/10)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-8
+
+Comparing Key  `for it was impossible for him to reach the tempting contents of the vessel'
+      and Resp `hungry a sat helpless vessel fox tempting the dinner impossible'
+
+Recall    = 0.29 (4/14)
+Precision = 0.40 (4/10)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-9
+
+Comparing Key  `broth'
+      and Resp `the stork vain bill fox broth'
+
+Recall    = 1.00 (1/1)
+Precision = 0.17 (1/6)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-10
+
+Comparing Key  `the stork'
+      and Resp `stork the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-11
+
+Comparing Key  `long and narrow'
+      and Resp `narrow the stork bill'
+
+Recall    = 0.33 (1/3)
+Precision = 0.25 (1/4)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-12
+
+Comparing Key  `the fox'
+      and Resp `a fox stork'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-13
+
+Comparing Key  `a flat and large dish'
+      and Resp `soup in a flat and large dish'
+
+Recall    = 1.00 (5/5)
+Precision = 0.71 (5/7)
+F-measure = 0.83
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-14
+
+Comparing Key  `the stork'
+      and Resp `stork the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-15
+
+Comparing Key  `The stork'
+      and Resp `stork the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-16
+
+Comparing Key  `some soup in a flat and large dish'
+      and Resp `soup in a flat and large dish'
+
+Recall    = 0.88 (7/8)
+Precision = 1.00 (7/7)
+F-measure = 0.93
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-04-17
+
+Comparing Key  `The stork'
+      and Resp `stork the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-1
+
+Comparing Key  `a Fox'
+      and Resp `which a'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-2
+
+Comparing Key  `the fields where the corn was standing ripe and ready for cutting'
+      and Resp `corn fields ripe the cutting'
+
+Comparing Key  `the fields'
+      and Resp `corn fields ripe the cutting'
+
+=> Best match in answer key is:
+   `the fields where the corn was standing ripe and ready for cutting'
+
+Recall    = 0.42 (5/12)
+Precision = 1.00 (5/5)
+F-measure = 0.59
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-3
+
+Comparing Key  `the Farmer'
+      and Resp `a Farmer It'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-4
+
+Comparing Key  `an agriculturist'
+      and Resp `the set'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-5
+
+Comparing Key  `the tail of the fox'
+      and Resp `in order'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-6
+
+Comparing Key  `the agriculturist'
+      and Resp `an agriculturist'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-7
+
+Comparing Key  `the corn'
+      and Resp `corn the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-8
+
+Comparing Key  `the agriculturist'
+      and Resp `an agriculturist'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-9
+
+Comparing Key  `all his harvest'
+      and Resp `his harvest'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-10
+
+Comparing Key  `the agriculturist'
+      and Resp `the set'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-11
+
+Comparing Key  `the agriculturist'
+      and Resp `an agriculturist'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-12
+
+Comparing Key  `because the fox ran into a field'
+      and Resp `because the fox run into a field .'
+
+Recall    = 0.86 (6/7)
+Precision = 0.86 (6/7)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-13
+
+Comparing Key  `the corn'
+      and Resp `corn the'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-14
+
+Comparing Key  `The fox'
+      and Resp `He the'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-15
+
+Comparing Key  `the fiber'
+      and Resp `burn completely'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-05-16
+
+Comparing Key  `the fox'
+      and Resp `an agriculturist'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-1
+
+Comparing Key  `in a lair'
+      and Resp `in a lair'
+
+Comparing Key  `in his lair'
+      and Resp `in a lair'
+
+=> Best match in answer key is:
+   `in a lair'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-2
+
+Comparing Key  `the Mouse'
+      and Resp `a Mouse'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-3
+
+Comparing Key  `The idea of so insignificant a creature ever being able to do anything for him'
+      and Resp `a the idea creature let anything'
+
+Recall    = 0.33 (5/15)
+Precision = 0.83 (5/6)
+F-measure = 0.48
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-4
+
+Comparing Key  `a net which had been spread for game by some hunters'
+      and Resp `a the hunters spot roars some mouse heard game'
+
+Recall    = 0.36 (4/11)
+Precision = 0.44 (4/9)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-5
+
+Comparing Key  `because a mouse ran into the face of the lion'
+      and Resp `because a mouse ran into the face of the lion .'
+
+Recall    = 1.00 (10/10)
+Precision = 1.00 (10/10)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-6
+
+Comparing Key  `a trapper'
+      and Resp `trapper the'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-7
+
+Comparing Key  `the lion'
+      and Resp `the lion'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-8
+
+Comparing Key  `the rope of the net'
+      and Resp `gnawing the rope of the net with the tooth of'
+
+Recall    = 1.00 (5/5)
+Precision = 0.50 (5/10)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-9
+
+Comparing Key  `a mouse'
+      and Resp `a mouse face lair asleep'
+
+Recall    = 1.00 (2/2)
+Precision = 0.40 (2/5)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-10
+
+Comparing Key  `in order to catch a big game'
+      and Resp `a game net big the trapper order spread'
+
+Recall    = 0.57 (4/7)
+Precision = 0.50 (4/8)
+F-measure = 0.53
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-11
+
+Comparing Key  `the mouse'
+      and Resp `the mouse'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-12
+
+Comparing Key  `the voice of the lion'
+      and Resp `voice of the lion'
+
+Recall    = 0.80 (4/5)
+Precision = 1.00 (4/4)
+F-measure = 0.89
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-13
+
+Comparing Key  `its teeth'
+      and Resp `ado lion the setting teeth'
+
+Recall    = 0.50 (1/2)
+Precision = 0.20 (1/5)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-14
+
+Comparing Key  `the lion'
+      and Resp `the lion'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-15
+
+Comparing Key  `the mouse'
+      and Resp `the lion'
+
+Recall    = 0.50 (1/2)
+Precision = 0.50 (1/2)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-16
+
+Comparing Key  `because he thought that the mouse is extremely not able to help him.'
+      and Resp `because he think that the mouse be extremely not able to help him .'
+
+Recall    = 0.85 (11/13)
+Precision = 0.85 (11/13)
+F-measure = 0.85
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-17
+
+Comparing Key  `the lion'
+      and Resp `the lion'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING fables-06-18
+
+Comparing Key  `some net'
+      and Resp `net in order to catch a big game'
+
+Recall    = 0.50 (1/2)
+Precision = 0.12 (1/8)
+F-measure = 0.20
+
+
+
+Finished processing 233 questions, 230 of which had responses.
+*************************************************************************
+
+FINAL RESULTS
+
+AVERAGE RECALL =    0.6463  (150.59 / 233)
+AVERAGE PRECISION = 0.5813  (133.71 / 230)
+AVERAGE F-MEASURE = 0.6121
+
+*************************************************************************

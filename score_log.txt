@@ -1,0 +1,21 @@
+
+FINAL RESULTS
+AVERAGE RECALL =    0.6463  (150.59 / 233)
+AVERAGE PRECISION = 0.5813  (133.71 / 230)
+AVERAGE F-MEASURE = 0.6121
+
+**********************************************************************
+
+FINAL RESULTS
+AVERAGE RECALL =    0.6463  (150.59 / 233)
+AVERAGE PRECISION = 0.5813  (133.71 / 230)
+AVERAGE F-MEASURE = 0.6121
+
+**********************************************************************
+
+FINAL RESULTS
+AVERAGE RECALL =    0.6463  (150.59 / 233)
+AVERAGE PRECISION = 0.5813  (133.71 / 230)
+AVERAGE F-MEASURE = 0.6121
+
+**********************************************************************

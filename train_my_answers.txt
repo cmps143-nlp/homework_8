@@ -8,40 +8,40 @@ QuestionID: blogs-01-3
 Answer: at first it
 
 QuestionID: blogs-01-4
-Answer: a police car and throw a thing at a police
+Answer: police car and throw a thing at a police
 
 QuestionID: blogs-01-5
-Answer: people the
+Answer: the people
 
 QuestionID: blogs-01-6
-Answer: people the
+Answer: the people
 
 QuestionID: blogs-01-7
 Answer: the people burned a and threw a thing at a .
 
 QuestionID: blogs-01-8
-Answer: people the
+Answer: the people
 
 QuestionID: blogs-01-9
-Answer: police things cars cops
+Answer: cars things cops police
 
 QuestionID: blogs-01-10
 Answer: were burned and things were thrown at cops .
 
 QuestionID: blogs-01-11
-Answer: stores bullets rioters bag gas windows tear things the worse
+Answer: stores the windows tear gas bag bullets rioters worse things
 
 QuestionID: blogs-01-12
-Answer: stores bullets bag gas windows tear things the worse
+Answer: stores the windows tear gas bag bullets worse things
 
 QuestionID: blogs-01-13
-Answer: stores bullets rioters bag gas windows tear things the worse
+Answer: stores the windows tear gas bag bullets rioters worse things
 
 QuestionID: blogs-01-14
-Answer: people the police
+Answer: the police people
 
 QuestionID: blogs-01-15
-Answer: things they a
+Answer: they a things
 
 QuestionID: blogs-01-16
 Answer: because it disagree about a view .
@@ -50,61 +50,61 @@ QuestionID: blogs-01-17
 Answer: 
 
 QuestionID: blogs-01-18
-Answer: full riot a gear police violence the
+Answer: violence police gear a full riot the
 
 QuestionID: blogs-01-19
-Answer: people the police
+Answer: the police people
 
 QuestionID: blogs-01-20
-Answer: people the
+Answer: the people
 
 QuestionID: blogs-01-21
-Answer: people the police
+Answer: the police people
 
 QuestionID: blogs-01-22
-Answer: the meeting
+Answer: meeting the
 
 QuestionID: blogs-01-23
 Answer: 
 
 QuestionID: blogs-01-24
-Answer: people the police
+Answer: the police people
 
 QuestionID: blogs-02-1
-Answer: the man
+Answer: man the
 
 QuestionID: blogs-02-2
-Answer: a years motorbike lawn front
+Answer: a front lawn motorbike years
 
 QuestionID: blogs-02-3
-Answer: he I a
+Answer: a I he
 
 QuestionID: blogs-02-4
 Answer: because it want the young man to know the narrator regret that it have not aid him .
 
 QuestionID: blogs-02-5
-Answer: a broke front man motorbike yard neck the
+Answer: a the man neck motorbike front yard broke
 
 QuestionID: blogs-02-6
 Answer: 
 
 QuestionID: blogs-02-7
-Answer: it mind I everyone a
+Answer: everyone a mind it I
 
 QuestionID: blogs-02-8
-Answer: the man
+Answer: man the
 
 QuestionID: blogs-02-9
-Answer: the man narrator
+Answer: narrator man the
 
 QuestionID: blogs-02-10
 Answer: narrator young man a
 
 QuestionID: blogs-02-11
-Answer: to wonder that the flash be an orb
+Answer: wonder that the flash be an orb
 
 QuestionID: blogs-02-12
-Answer: a the some flash
+Answer: some flash a the
 
 QuestionID: blogs-02-13
 Answer: a few years ago , a died out on my front lawn when he crashed his motorbike .
@@ -113,34 +113,34 @@ QuestionID: blogs-02-14
 Answer: on the front yard
 
 QuestionID: blogs-02-15
-Answer: the man
+Answer: man the
 
 QuestionID: blogs-02-16
-Answer: the it narrator
+Answer: narrator the it
 
 QuestionID: blogs-02-17
 Answer: to the spot of the yard of the narrator and
 
 QuestionID: blogs-02-18
-Answer: the man
+Answer: man the
 
 QuestionID: blogs-02-19
-Answer: family the narrator
+Answer: narrator family the
 
 QuestionID: blogs-02-20
-Answer: a broke front man motorbike yard neck the
+Answer: a the man neck motorbike front yard broke
 
 QuestionID: blogs-03-1
 Answer: gustav hurricane
 
 QuestionID: blogs-03-2
-Answer: the storm
+Answer: storm the
 
 QuestionID: blogs-03-3
 Answer: winds
 
 QuestionID: blogs-03-4
-Answer: Bush a
+Answer: a Bush
 
 QuestionID: blogs-03-5
 Answer: in louisiana
@@ -149,7 +149,7 @@ QuestionID: blogs-03-6
 Answer: in order
 
 QuestionID: blogs-03-7
-Answer: a oak an pine the trees group
+Answer: a trees the an group oak pine
 
 QuestionID: blogs-03-8
 Answer: because it own a group of tree and near the house of the narrator .
@@ -158,61 +158,61 @@ QuestionID: blogs-03-9
 Answer: in order
 
 QuestionID: blogs-03-10
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-03-11
 Answer: an area
 
 QuestionID: blogs-03-12
-Answer: apart a the tree split
+Answer: apart a split the tree
 
 QuestionID: blogs-03-13
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-03-14
-Answer: house the narrator family
+Answer: house narrator the family
 
 QuestionID: blogs-03-15
-Answer: wife we a
+Answer: a wife we
 
 QuestionID: blogs-03-16
-Answer: house a narrator the trees group
+Answer: a trees the group house narrator
 
 QuestionID: blogs-03-17
 Answer: once , storm was occurring in .
 
 QuestionID: blogs-03-18
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-03-19
 Answer: in louisiana
 
 QuestionID: blogs-03-20
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-04-1
-Answer: the squirrel
+Answer: squirrel the
 
 QuestionID: blogs-04-2
-Answer: the squirrel
+Answer: squirrel the
 
 QuestionID: blogs-04-3
-Answer: paw the squirrel
+Answer: squirrel the paw
 
 QuestionID: blogs-04-4
 Answer: in the bowl
 
 QuestionID: blogs-04-5
-Answer: Squirrels a
+Answer: a Squirrels
 
 QuestionID: blogs-04-6
 Answer: an I
 
 QuestionID: blogs-04-7
-Answer: a this those times camera
+Answer: a those this camera times
 
 QuestionID: blogs-04-8
-Answer: This I a
+Answer: a This I
 
 QuestionID: blogs-04-9
 Answer: on the railing
@@ -221,46 +221,46 @@ QuestionID: blogs-04-10
 Answer: on the deck
 
 QuestionID: blogs-04-11
-Answer: the bowl
+Answer: bowl the
 
 QuestionID: blogs-04-12
-Answer: water the bowl a
+Answer: a water the bowl
 
 QuestionID: blogs-04-13
-Answer: a steel bowl stainless water benjamin the
+Answer: a the benjamin steel bowl stainless water
 
 QuestionID: blogs-04-14
-Answer: water the bowl
+Answer: bowl water the
 
 QuestionID: blogs-04-15
-Answer: birds the order
+Answer: the order birds
 
 QuestionID: blogs-05-1
-Answer: a students group
+Answer: a group students
 
 QuestionID: blogs-05-2
-Answer: the group of student for presence and stand at the
+Answer: group of student for presence and stand at the front
 
 QuestionID: blogs-05-3
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-05-4
 Answer: and the group of student do n't react
 
 QuestionID: blogs-05-5
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-05-6
-Answer: the slip and insert it into a bottom drawer of
+Answer: slip and insert it into a bottom drawer of the
 
 QuestionID: blogs-05-7
 Answer: What a
 
 QuestionID: blogs-05-8
-Answer: teacher moments a date
+Answer: a teacher moments date
 
 QuestionID: blogs-05-9
-Answer: oh underwear class round dear garment ankles the can
+Answer: the dear oh can underwear round class ankles garment
 
 QuestionID: blogs-05-10
 Answer: over the slip
@@ -269,61 +269,61 @@ QuestionID: blogs-05-11
 Answer: because the elastic of the slip be dysfunctional .
 
 QuestionID: blogs-05-12
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-05-13
-Answer: the group of students language
+Answer: group of students language
 
 QuestionID: blogs-05-14
 Answer: they have describe the day to their parent over dinner
 
 QuestionID: blogs-05-15
-Answer: they I a
+Answer: they a I
 
 QuestionID: blogs-05-16
-Answer: the narrator
+Answer: narrator the
 
 QuestionID: blogs-05-17
-Answer: a students group
+Answer: a group students
 
 QuestionID: blogs-06-1
 Answer: the an
 
 QuestionID: blogs-06-2
-Answer: a group of treat and create some fire
+Answer: group of treat and create some fire
 
 QuestionID: blogs-06-3
-Answer: the husband
+Answer: husband the
 
 QuestionID: blogs-06-4
-Answer: door fire order the oven
+Answer: oven the door order fire
 
 QuestionID: blogs-06-5
-Answer: we a
+Answer: a we
 
 QuestionID: blogs-06-6
-Answer: the degrees stuck
+Answer: degrees stuck the
 
 QuestionID: blogs-06-7
-Answer: the degrees stuck
+Answer: degrees stuck the
 
 QuestionID: blogs-06-8
-Answer: the degrees stuck
+Answer: degrees stuck the
 
 QuestionID: blogs-06-9
-Answer: the degrees stuck
+Answer: degrees stuck the
 
 QuestionID: blogs-06-10
-Answer: extinguisher the fire a
+Answer: extinguisher a fire the
 
 QuestionID: blogs-06-11
-Answer: a the treats some group
+Answer: a treats some the group
 
 QuestionID: blogs-06-12
-Answer: fire house the
+Answer: house the fire
 
 QuestionID: blogs-06-13
-Answer: to prevent the fire spreading
+Answer: prevent the fire spreading
 
 QuestionID: blogs-06-14
 Answer: a days range
@@ -332,10 +332,10 @@ QuestionID: blogs-06-15
 Answer: a batch cookies
 
 QuestionID: blogs-06-16
-Answer: a the treats some group
+Answer: a treats some the group
 
 QuestionID: blogs-06-17
-Answer: the husband
+Answer: husband the
 
 QuestionID: blogs-06-18
 Answer: the an
@@ -353,13 +353,13 @@ QuestionID: fables-01-4
 Answer: get snatched 
 
 QuestionID: fables-01-5
-Answer: a cheese the crow
+Answer: a crow cheese the
 
 QuestionID: fables-01-6
 Answer: a
 
 QuestionID: fables-01-7
-Answer: the crow fox she
+Answer: she the fox crow
 
 QuestionID: fables-01-8
 Answer: a
@@ -368,13 +368,13 @@ QuestionID: fables-01-9
 Answer: in the beak
 
 QuestionID: fables-01-10
-Answer: Fox Crow a
+Answer: a Crow Fox
 
 QuestionID: fables-01-11
 Answer: the fox
 
 QuestionID: fables-01-12
-Answer: that the beauty of the bird was incomparable
+Answer: the beauty of the bird was incomparable
 
 QuestionID: fables-01-13
 Answer: there once was a .
@@ -386,40 +386,40 @@ QuestionID: fables-01-15
 Answer: the fox
 
 QuestionID: fables-01-16
-Answer: the crow fox
+Answer: the fox crow
 
 QuestionID: fables-01-17
 Answer: the crow
 
 QuestionID: fables-01-18
-Answer: the crow fox she
+Answer: she the fox crow
 
 QuestionID: fables-02-1
-Answer: he Lion mouth a
+Answer: a mouth he Lion
 
 QuestionID: fables-02-2
-Answer: Bull a horns prey
+Answer: a Bull prey horns
 
 QuestionID: fables-02-3
 Answer: in a meadow
 
 QuestionID: fables-02-4
-Answer: the bull
+Answer: bull the
 
 QuestionID: fables-02-5
 Answer: the lion
 
 QuestionID: fables-02-6
-Answer: that the lion be friendly
+Answer: the lion be friendly
 
 QuestionID: fables-02-7
 Answer: bull lion world a
 
 QuestionID: fables-02-8
-Answer: a what friend
+Answer: a friend what
 
 QuestionID: fables-02-9
-Answer: to eat the bull
+Answer: eat the bull
 
 QuestionID: fables-02-10
 Answer: because the lion fear sharp every horn of the bull .
@@ -428,7 +428,7 @@ QuestionID: fables-02-11
 Answer: every horn of the bull
 
 QuestionID: fables-02-12
-Answer: friend the dear world those
+Answer: world those the dear friend
 
 QuestionID: fables-02-13
 Answer: the lion
@@ -437,19 +437,19 @@ QuestionID: fables-02-14
 Answer: because the lion want to eat the bull .
 
 QuestionID: fables-02-15
-Answer: the bull to remove every horn of the bull because
+Answer: bull to remove every horn of the bull because every
 
 QuestionID: fables-02-16
 Answer: because every horn of the bull be ugly .
 
 QuestionID: fables-02-17
-Answer: to attempt to kill the bull
+Answer: attempt to kill the bull
 
 QuestionID: fables-02-18
-Answer: the bull
+Answer: bull the
 
 QuestionID: fables-02-19
-Answer: the bull
+Answer: bull the
 
 QuestionID: fables-02-20
 Answer: because the lion want to eat the bull .
@@ -473,28 +473,28 @@ QuestionID: fables-03-3
 Answer: in his talon with the intention of carry it off
 
 QuestionID: fables-03-4
-Answer: countryman who a
+Answer: a who countryman
 
 QuestionID: fables-03-5
-Answer: a intention the talons an
+Answer: a talons the an intention
 
 QuestionID: fables-03-6
 Answer: in revenge
 
 QuestionID: fables-03-7
-Answer: to sip from the drinking vessel
+Answer: sip from the drinking vessel
 
 QuestionID: fables-03-8
 Answer: eagle an
 
 QuestionID: fables-03-9
-Answer: the drinking vessel
+Answer: drinking vessel
 
 QuestionID: fables-03-10
-Answer: a draught hand man exertions thirst eagle the ground
+Answer: a the man hand eagle thirst exertions draught ground
 
 QuestionID: fables-03-11
-Answer: a horn draught hand man exertions thirst eagle the contents ground
+Answer: a the man horn hand contents eagle thirst exertions draught ground
 
 QuestionID: fables-03-12
 Answer: spat 
@@ -503,55 +503,55 @@ QuestionID: fables-03-13
 Answer: Eagle an
 
 QuestionID: fables-03-14
-Answer: the eagle serpent
+Answer: eagle the serpent
 
 QuestionID: fables-03-15
-Answer: countryman who a
+Answer: a who countryman
 
 QuestionID: fables-03-16
-Answer: countryman who a
+Answer: a who countryman
 
 QuestionID: fables-03-17
-Answer: a drinking vessel try to help the eagle to escape
+Answer: drinking vessel try to help the eagle to escape
 
 QuestionID: fables-03-18
-Answer: countryman who a
+Answer: a who countryman
 
 QuestionID: fables-03-19
-Answer: the eagle from the serpent
+Answer: eagle from the serpent
 
 QuestionID: fables-03-20
-Answer: some poison in the drinking vessel
+Answer: poison in the drinking vessel
 
 QuestionID: fables-03-21
-Answer: Eagle man a
+Answer: a Eagle man
 
 QuestionID: fables-03-22
 Answer: eagle an
 
 QuestionID: fables-03-23
-Answer: the eagle serpent
+Answer: eagle the serpent
 
 QuestionID: fables-03-24
-Answer: a order serpent an
+Answer: a an order serpent
 
 QuestionID: fables-03-25
 Answer: eagle an
 
 QuestionID: fables-03-26
-Answer: the countryman who
+Answer: who countryman the
 
 QuestionID: fables-03-27
-Answer: the some poison vessel drinking
+Answer: some poison drinking the vessel
 
 QuestionID: fables-04-1
-Answer: Fox fare a
+Answer: a fare Fox
 
 QuestionID: fables-04-2
 Answer: a large flat dish of soup
 
 QuestionID: fables-04-3
-Answer: a dish the some fox
+Answer: fox some a the dish
 
 QuestionID: fables-04-4
 Answer: stork fox pitcher a
@@ -566,43 +566,43 @@ QuestionID: fables-04-7
 Answer: the long bill of the stork into the long and
 
 QuestionID: fables-04-8
-Answer: vessel tempting fox a sat the impossible hungry dinner helpless
+Answer: hungry a sat helpless vessel fox tempting the dinner impossible
 
 QuestionID: fables-04-9
-Answer: stork broth bill fox vain the
+Answer: the stork vain bill fox broth
 
 QuestionID: fables-04-10
-Answer: the stork
+Answer: stork the
 
 QuestionID: fables-04-11
-Answer: narrow stork the bill
+Answer: narrow the stork bill
 
 QuestionID: fables-04-12
-Answer: a stork fox
+Answer: a fox stork
 
 QuestionID: fables-04-13
-Answer: some soup in a flat and large dish
+Answer: soup in a flat and large dish
 
 QuestionID: fables-04-14
-Answer: the stork
+Answer: stork the
 
 QuestionID: fables-04-15
-Answer: the stork
+Answer: stork the
 
 QuestionID: fables-04-16
-Answer: some soup in a flat and large dish
+Answer: soup in a flat and large dish
 
 QuestionID: fables-04-17
-Answer: the stork
+Answer: stork the
 
 QuestionID: fables-05-1
 Answer: which a
 
 QuestionID: fables-05-2
-Answer: corn the fields ripe cutting
+Answer: corn fields ripe the cutting
 
 QuestionID: fables-05-3
-Answer: It Farmer a
+Answer: a Farmer It
 
 QuestionID: fables-05-4
 Answer: the set
@@ -611,13 +611,13 @@ QuestionID: fables-05-5
 Answer: in order
 
 QuestionID: fables-05-6
-Answer: agriculturist an
+Answer: an agriculturist
 
 QuestionID: fables-05-7
 Answer: corn the
 
 QuestionID: fables-05-8
-Answer: agriculturist an
+Answer: an agriculturist
 
 QuestionID: fables-05-9
 Answer: his harvest
@@ -626,7 +626,7 @@ QuestionID: fables-05-10
 Answer: the set
 
 QuestionID: fables-05-11
-Answer: agriculturist an
+Answer: an agriculturist
 
 QuestionID: fables-05-12
 Answer: because the fox run into a field .
@@ -635,25 +635,25 @@ QuestionID: fables-05-13
 Answer: corn the
 
 QuestionID: fables-05-14
-Answer: the He
+Answer: He the
 
 QuestionID: fables-05-15
 Answer: burn completely
 
 QuestionID: fables-05-16
-Answer: agriculturist an
+Answer: an agriculturist
 
 QuestionID: fables-06-1
 Answer: in a lair
 
 QuestionID: fables-06-2
-Answer: Mouse a
+Answer: a Mouse
 
 QuestionID: fables-06-3
-Answer: a idea creature let anything the
+Answer: a the idea creature let anything
 
 QuestionID: fables-06-4
-Answer: a roars spot hunters heard the some game mouse
+Answer: a the hunters spot roars some mouse heard game
 
 QuestionID: fables-06-5
 Answer: because a mouse ran into the face of the lion .
@@ -668,19 +668,19 @@ QuestionID: fables-06-8
 Answer: gnawing the rope of the net with the tooth of
 
 QuestionID: fables-06-9
-Answer: lair a mouse asleep face
+Answer: a mouse face lair asleep
 
 QuestionID: fables-06-10
-Answer: order spread net a big game trapper the
+Answer: a game net big the trapper order spread
 
 QuestionID: fables-06-11
 Answer: the mouse
 
 QuestionID: fables-06-12
-Answer: the voice of the lion
+Answer: voice of the lion
 
 QuestionID: fables-06-13
-Answer: lion the teeth ado setting
+Answer: ado lion the setting teeth
 
 QuestionID: fables-06-14
 Answer: the lion
@@ -695,5 +695,5 @@ QuestionID: fables-06-17
 Answer: the lion
 
 QuestionID: fables-06-18
-Answer: some net in order to catch a big game
+Answer: net in order to catch a big game
 

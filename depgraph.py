@@ -177,8 +177,9 @@ def get_segment_after_word( vnode, sent):
     addr = vnode['address'] +1
     wanted = set(['DT', 'TO', 'IN'])
     # also add the previous word if it is a determinr
-    if sent[addr-1][1] in wanted:
-        addr -= 1
+    if addr-1 in sent:
+        if sent[addr-1][1] in wanted:
+            addr -= 1
     ans = ans[addr : addr+10]
     return " ".join(ans).rstrip(' .,!\n?')
 

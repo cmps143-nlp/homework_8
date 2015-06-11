@@ -15,7 +15,6 @@ import zipfile, argparse, os
 from collections import defaultdict
 import nltk
 import re
-from nltk.stem.wordnet import WordNetLemmatizer
 import chunk
 import depgraph
 import constgraph
@@ -125,6 +124,12 @@ def load_text():
     # print(dataset_dict["noun_ids"])
     return dataset_dict
 
+def load_wordnet_dicts():
+    dataset_dict = {}
+    dataset_dict["noun_ids"] = load_wordnet_ids("Wordnet_nouns.csv")
+    dataset_dict["verb_ids"] = load_wordnet_ids("Wordnet_verbs.csv")
+    return dataset_dict
+
 def form(q):
     return (idtoint(q.qid), q.qid, q.answer)
 
@@ -197,11 +202,11 @@ def get_synset(word):
     for c in word_synsets:
         if c.name() in all_texts['noun_ids'] or c.name() in all_texts['verb_ids']:
             # return c.name()
-            return (bl.getSyns(c.name().split('.')[0]))
+            return list(set(bl.getSyns(c.name().split('.')[0])))
             # print(c.name())
             # print(all_texts['noun_ids'][c.name()])
             # print(c.hypernyms())
-            
+
     # if we didn't find the word in the wordnet dicts given in hw8
     # just return the default synonyms
     return bl.getSyns(word)
@@ -605,60 +610,63 @@ class Question:
             print('sindex: ', sindex)
             print('subj: ', subj)
             '''
-            verb = sent[sindex+1].rstrip(unwanted)
+            v = sent[sindex+1].rstrip(unwanted)
 
             
-            print(get_synset(verb))
+            # v_syns = get_synset(v)
+            v_syns = [v]
 
-            if verb == 'say':
-                verb = 'said'
-            #print('verb: ', verb)
-            # find verb in text sentence
-            bsent, index, qtype = self.best_sent(verb)
-            '''print('bsent: ', bsent)
-            print('bsent index: ', index)
-            print(qtype)'''
-            sgraph = self.get_dgraph(qtype,index)
-            #print('sgraph: ', sgraph)
-            #print(qtype)
-            nodes = depgraph.find_nodeByWord(verb, sgraph, overlap=True)
+            for verb in v_syns:
 
-            # extract answer from text
-            length = len(nodes)
-            if length <1:
-                lemVerb = wnl.lemmatize(wnl, verb,'v')
-                if lemVerb == 'do':
-                    self.solve_do(qsent, sindex+1, qtype, verb)
+                if verb == 'say':
+                    verb = 'said'
+                #print('verb: ', verb)
+                # find verb in text sentence
+                bsent, index, qtype = self.best_sent(verb)
+                '''print('bsent: ', bsent)
+                print('bsent index: ', index)
+                print(qtype)'''
+                sgraph = self.get_dgraph(qtype,index)
+                #print('sgraph: ', sgraph)
+                #print(qtype)
+                nodes = depgraph.find_nodeByWord(verb, sgraph, overlap=True)
+
+                # extract answer from text
+                length = len(nodes)
+                if length <1:
+                    lemVerb = wnl.lemmatize(wnl, verb,'v')
+                    if lemVerb == 'do':
+                        self.solve_do(qsent, sindex+1, qtype, verb)
+                    else:
+                        #print('<1', verb)
+                        #self.solve_nic_baseline(stopwords)
+                        # use sch whenever possible
+                        if 'sch' in self.qtype:
+                            qtype = 'sch'
+                        else:
+                            qtype = 'story'
+                        sents = self.get_text(self.qtype[0]).lower()
+                        #sents = bl.get_sentences(sents)
+
+                        start = sents.find(verb)
+                        if (start >= 0):
+                            end1 = sents.find('.', start)
+                            answer = sents[start+len(verb) +2 : end1]
+                            end2 = answer.find(',')
+                            if end2 > 0:
+                                answer = answer[:end2]
+                            #print(answer)
+                            self.answer = answer
+                        else:
+                            self.solve_nic_baseline(stopwords)
+                elif length == 1:
+                    self.answer = depgraph.get_segment_after_word(nodes[0], bsent)
                 else:
-                    #print('<1', verb)
-                    #self.solve_nic_baseline(stopwords)
-                    # use sch whenever possible
-                    if 'sch' in self.qtype:
-                        qtype = 'sch'
-                    else:
-                        qtype = 'story'
-                    sents = self.get_text(self.qtype[0]).lower()
-                    #sents = bl.get_sentences(sents)
-
-                    start = sents.find(verb)
-                    if (start >= 0):
-                        end1 = sents.find('.', start)
-                        answer = sents[start+len(verb) +2 : end1]
-                        end2 = answer.find(',')
-                        if end2 > 0:
-                            answer = answer[:end2]
-                        #print(answer)
-                        self.answer = answer
-                    else:
-                        self.solve_nic_baseline(stopwords)
-            elif length == 1:
-                self.answer = depgraph.get_segment_after_word(nodes[0], bsent)
-            else:
-                self.solve_nic_baseline(stopwords)
-                print('error in solve_what(): verb appears more than once')
-                #print([n['word'] for n in nodes])
-                #print()
-                #return
+                    self.solve_nic_baseline(stopwords)
+                    print('error in solve_what(): verb appears more than once')
+                    #print([n['word'] for n in nodes])
+                    #print()
+                    #return
         else:
             self.solve_nic_baseline(stopwords)
         #self.answer += '..'
